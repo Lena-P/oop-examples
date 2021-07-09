@@ -1,7 +1,3 @@
-package com.prokopovich.aggregation;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Developer {
     private String fullName;

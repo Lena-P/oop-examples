@@ -6,7 +6,8 @@ public class Lens {
     public void setLens() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter information about lens:\nname: ");
+        System.out.println("Enter information about lens:");
+        System.out.print("name: ")
         this.name = scanner.nextLine();
         System.out.print("material: ");
         this.material = scanner.nextLine();
@@ -37,7 +38,8 @@ public class Glasses {
     public void addGlasses() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter information about glasses:\nname: ");
+        System.out.println("Enter information about glasses: ");
+        System.out.print("name: ")
         name = scanner.nextLine();
         System.out.print("appointment: ");
         appointment = scanner.nextLine();
