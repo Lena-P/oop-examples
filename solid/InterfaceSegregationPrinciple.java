@@ -1,5 +1,3 @@
-package com.prokopovich.solid.isp;
-
 public interface Person {
     void eat();
     void sleep();
@@ -56,9 +54,11 @@ public class Main {
 
     public static void main(String[] args) {
         Unemployed unemployed = new Unemployed("Mark");
+        WorkingPerson employee = new WorkingPerson("Ann", "Teacher");
+        
         unemployed.eat();
         unemployed.sleep();
-        WorkingPerson employee = new WorkingPerson("Ann", "Teacher");
+        
         employee.sleep();
         employee.work();
         employee.eat();

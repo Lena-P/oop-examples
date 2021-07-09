@@ -1,5 +1,3 @@
-package com.prokopovich.solid.ocp;
-
 public class Singer {
     private String name;
 

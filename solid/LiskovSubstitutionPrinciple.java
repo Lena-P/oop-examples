@@ -1,5 +1,3 @@
-package com.prokopovich.solid.lsp;
-
 public class Artist {
     protected String name;
 

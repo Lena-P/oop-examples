@@ -1,8 +1,3 @@
-package com.prokopovich.aggregation.solid.spr;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Pizza {
     private String name;
     private double price;
